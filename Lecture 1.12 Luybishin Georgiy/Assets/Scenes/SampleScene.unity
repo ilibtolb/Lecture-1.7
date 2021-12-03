@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1273493023}
-  PlatformToCameraOffset: {x: 0, y: 5.2, z: -11.54}
+  PlatformToCameraOffset: {x: 0, y: 5.2, z: -15}
   Speed: 25
 --- !u!1 &1036849132
 GameObject:

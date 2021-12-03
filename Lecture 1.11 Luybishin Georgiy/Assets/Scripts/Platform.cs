@@ -14,5 +14,10 @@ namespace Assets.Scripts
             }
         }
 
+        private void OnTriggerExit(Collider other)
+        {
+            this.gameObject.SetActive(false);
+        }
+
     }
 }

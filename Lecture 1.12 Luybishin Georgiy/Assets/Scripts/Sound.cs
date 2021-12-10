@@ -7,6 +7,12 @@ public class Sound : MonoBehaviour
     public AudioSource _audio;
     public AudioClip Break;
     public AudioClip Bounce;
+    public float Vol;
+
+    private void Update()
+    {
+        _audio.volume = Vol;
+    }
 
     public void PlayBackround()
     {
